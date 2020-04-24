@@ -34,3 +34,25 @@
 <p class = "description"> Instructions ${meal.strInstructions}</p>
 </div>
 `;
+
+
+
+
+<div class= "card">
+          <p>Meal Category ${eat.strCategory}</p>
+          <p>Meal Name${eat.strMeal}</p>
+          <p id = "description"> Instructions ${eat.strInstructions}</p>
+
+
+
+           // for(let i=0; i< data.meals.length; i++){
+      //   let output = ''
+      //   output += `
+      //   <div class= "card">
+      //     <p>Meal Category ${data.meals[i].strCategory}</p>
+      //     <p>Meal Name${data.meals[i].strMeal}</p>
+      //     <p id = "description"> Instructions ${data.meals[i].strInstructions}</p>
+      //     `
+      //     document.querySelectorAll('.result')[i].innerHTML = output;
+      //     console.log(output);
+      // }
